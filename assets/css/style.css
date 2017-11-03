@@ -265,18 +265,29 @@ input[type=submit] {
 /*desktop*/
 @media screen and (max-width:980px){
   #main-section {
-    width:500px;
+    width:60%;
   }
   .bio-image {
     width:100%;
   }
 
-  #sidebar {
-    width:200px;
-    float:left;
-  }
-
   .work {
-    width:100%;
+    width:30%;
   }
+}
+
+@media screen and (max-width:768px) {
+  #main-section {
+    max-width:100%;
+  }
+  .bio-image {
+    width:40%;
+  }
+  .sidebar {
+    max-width:100%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  
 }
