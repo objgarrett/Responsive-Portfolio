@@ -264,30 +264,60 @@ input[type=submit] {
 /*media queries*/
 /*desktop*/
 @media screen and (max-width:980px){
-  #main-section {
-    width:60%;
+  .main-section {
+    width:70%;
   }
   .bio-image {
     width:100%;
   }
-
   .work {
     width:30%;
   }
 }
 
 @media screen and (max-width:768px) {
-  #main-section {
-    max-width:100%;
+  .main-section {
+    width:98%;
+    margin:20px;
   }
   .bio-image {
-    width:40%;
+    width:50%;
   }
   .sidebar {
-    max-width:100%;
+    max-width:95%;
+    margin-right:20px;
+  }
+  .work {
+    width:45%;
   }
 }
 
 @media screen and (max-width:640px) {
-  
+  #logo {
+    position: fixed;
+    width:100%;
+    text-align:center;
+  }
+  nav {
+    margin-top:90px;
+    padding:20px;
+    background:#fff;
+    clear:left;
+    position:fixed;
+    width:100%;
+    text-align:center;
+  }
+  .main-section {
+    width:95%;
+    margin:40px 10px 10px 10px;
+  }
+  .bio-image {
+    width:100%;
+  }
+  .sidebar {
+    max-width:95%;
+  }
+  .work {
+    width:100%;
+  }
 }
